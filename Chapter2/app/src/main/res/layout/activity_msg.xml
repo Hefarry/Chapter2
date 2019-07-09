@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="chapter.android.aweme.ss.com.homework.MsgActivity">
 
     <RelativeLayout
         android:id="@+id/header"
@@ -20,7 +21,7 @@
             android:fontFamily="monospace"
             android:textColor="#ffffff"
             android:textSize="18sp"
-            tools:text="消息" />
+            tools:text="消息"/>
     </RelativeLayout>
 
     <ScrollView
@@ -37,8 +38,7 @@
             android:fontFamily="casual"
             android:textColor="#ffffff"
             android:textSize="14sp"
-            android:textStyle="normal"
-            tools:text="skdjskdjskdjskdjskdjs" />
+            android:textStyle="normal" />
 
     </ScrollView>
 
